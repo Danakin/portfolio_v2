@@ -1,5 +1,6 @@
 <template>
   <div>
-    <NuxtWelcome />
+    Admin layout content:
+    <slot />
   </div>
 </template>
