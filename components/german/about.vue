@@ -28,23 +28,22 @@
       </p>
 
       <AboutServiceCard class="mt-24">
-        <template #header> Web-Seiten und -Services </template>
+        <template #header> Sichere Web-Services </template>
         <div>
           Mit modernen Technologien entwickle ich sichere Anwendungen, die Ihren
           Ansprüchen garantiert genügen.
         </div>
-        <div>Dabei wähle ich die für den Auftrag passendsten Technologien.</div>
+      </AboutServiceCard>
+      <AboutServiceCard>
+        <template #header> Schnelle Web-Seiten </template>
         <div>
-          Im Backend entweder PHP (Laravel), Javascript (Node.js) oder GO.
-        </div>
-        <div>
-          Für Frontend-Anwendungen nutze ich Vue.JS, Svelte oder
-          HTML/Javascript, für mobile Applikationen Dart (Flutter).
+          Browser müssen nicht langsam sein. Der Einsatz moderne JavaScript-Frameworks
+          garantiert sichere und schnelle Seiten.
         </div>
       </AboutServiceCard>
     </article>
 
-    <div class="absolute bottom-4 right-4 flex flex-wrap gap-4">
+    <div class="relative sm:absolute mt-4 sm:mt-0 bottom-4 right-4 flex flex-col gap-4">
       <a
         class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
       >

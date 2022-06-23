@@ -1,8 +1,8 @@
 <template>
-  <article class="about_card w-full max-w-lg rounded bg-white/70 shadow">
+  <article class="about_card w-full max-w-lg rounded bg-slate-50/75 shadow">
     <div
       @click="toggle"
-      class="flex cursor-pointer items-center justify-between p-4 hover:bg-slate-50/70"
+      class="flex cursor-pointer items-center justify-between p-4 hover:bg-slate-100/75"
     >
       <div class="flex-1 text-lg font-bold">
         <slot name="header" />
