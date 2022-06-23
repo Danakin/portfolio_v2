@@ -26,5 +26,17 @@
         Webseiten, so individuell wie Ihre Ideen.
       </p>
     </article>
+
+    <div class="absolute bottom-4 right-4 flex flex-wrap gap-4">
+      <a class="rounded px-8 py-4 bg-slate-50 hover:bg-slate-100 transition-all hover:scale-105 hover:shadow">
+        Technologien →
+        <div class="text-xs italic">Coming soon...</div>
+      </a>
+
+      <a class="rounded px-8 py-4 bg-slate-50 hover:bg-slate-100 transition-all hover:scale-105 hover:shadow">
+        CV →
+        <div class="text-xs italic">Coming soon...</div>
+      </a>
+    </div>
   </section>
 </template>

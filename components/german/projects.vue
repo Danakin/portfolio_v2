@@ -41,7 +41,7 @@
       </ProjectsCard>
     </article>
 
-    <a class="absolute bottom-4 right-4 px-8 py-4 hover:bg-slate-100 transition-all scale-105 hover:shadow">
+    <a class="rounded absolute bottom-4 right-4 px-8 py-4 bg-slate-50 hover:bg-slate-100 transition-all hover:scale-105 hover:shadow">
       Mehr →
       <div class="text-xs italic">Coming soon...</div>
     </a>

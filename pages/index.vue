@@ -24,6 +24,6 @@ main>div:nth-child(even) {
 }
 
 main>div>section {
-  @apply pl-14 md:pl-52 pr-2 sm:pr-4 lg:pr-8;
+  @apply pl-14 py-4 md:pl-52 pr-2 sm:pr-4 lg:pr-8;
 }
 </style>
