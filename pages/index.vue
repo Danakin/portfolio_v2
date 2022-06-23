@@ -1,5 +1,5 @@
 <template>
-  <main class="relative w-full relative ml-12 md:ml-52">
+  <main class="relative relative ml-12 w-full md:ml-52">
     <GermanAbout />
     <GermanContact />
   </main>
@@ -7,6 +7,6 @@
 
 <script setup>
 definePageMeta({
-  layout: 'user',
+  layout: "user",
 });
 </script>

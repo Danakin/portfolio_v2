@@ -1,9 +1,9 @@
 <template>
-    <div class="text-red-500">CV</div>
+  <div class="text-red-500">CV</div>
 </template>
 
 <script setup>
 definePageMeta({
-  layout: 'user',
-})
+  layout: "user",
+});
 </script>

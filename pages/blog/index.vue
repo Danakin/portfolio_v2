@@ -1,11 +1,9 @@
 <template>
-  <div>
-    Blog
-  </div>
+  <div>Blog</div>
 </template>
 
 <script setup>
 definePageMeta({
-  layout: 'user',
-})
+  layout: "user",
+});
 </script>
