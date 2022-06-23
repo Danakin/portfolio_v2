@@ -1,5 +1,5 @@
 <template>
-  <main class="relative w-full flex flex-col">
+  <main class="relative flex w-full flex-col">
     <div>
       <GermanAbout />
     </div>
@@ -19,11 +19,11 @@ definePageMeta({
 </script>
 
 <style>
-main>div:nth-child(even) {
+main > div:nth-child(even) {
   @apply bg-slate-50;
 }
 
-main>div>section {
-  @apply pl-14 py-4 md:pl-52 pr-2 sm:pr-4 lg:pr-8;
+main > div > section {
+  @apply py-4 pl-14 pr-2 sm:pr-4 md:pl-52 lg:pr-8;
 }
 </style>

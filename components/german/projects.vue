@@ -1,47 +1,70 @@
 <template>
   <section
-      id="projects"
-      ref="projects"
-      class="relative mx-auto flex min-h-screen max-w-4xl w-full translate-x-1/2 flex-col items-center justify-center gap-4 opacity-0 transition-all duration-500"
+    id="projects"
+    ref="projects"
+    class="relative mx-auto flex min-h-screen w-full max-w-4xl translate-x-1/2 flex-col items-center justify-center gap-4 opacity-0 transition-all duration-500"
   >
     <h2 class="text-center text-2xl font-bold">Portfolio</h2>
-    <article class="w-full grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <ProjectsCard title="Hataraku"
-                    :current="true"
-                    :technologies="['laravel', 'livewire', 'alpinejs']"
+    <article class="grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+      <ProjectsCard
+        title="Hataraku"
+        :current="true"
+        :technologies="['laravel', 'livewire', 'alpinejs']"
       >
-        Lead-Engineer bei der japanischen Job-Vermittlungs APP <em>hataraku</em>. Kundenprojekt, deswegen leider Closed Source.
+        Lead-Engineer bei der japanischen Job-Vermittlungs APP
+        <em>hataraku</em>. Kundenprojekt, deswegen leider Closed Source.
         <div class="flex justify-center">
-          <img src="~/assets/portfolio/hataraku.png" alt="Hataraku-Jobvermittlung">
+          <img
+            src="~/assets/portfolio/hataraku.png"
+            alt="Hataraku-Jobvermittlung"
+          />
         </div>
       </ProjectsCard>
-      <ProjectsCard title="Mamenoki"
-                    link="https://www.mamenoki.ed.jp/"
-                    github="https://github.com/Danakin/mamenoki_new"
-                    :current="true"
-                    :technologies="['vuejs', 'electronjs', 'typescript']"
+      <ProjectsCard
+        title="Mamenoki"
+        link="https://www.mamenoki.ed.jp/"
+        github="https://github.com/Danakin/mamenoki_new"
+        :current="true"
+        :technologies="['vuejs', 'electronjs', 'typescript']"
       >
-        Automatisierter Gehalts-Rechner für den Mamenoki-Kindergarten in Nagasaki. OpenSource
+        Automatisierter Gehalts-Rechner für den Mamenoki-Kindergarten in
+        Nagasaki. OpenSource
       </ProjectsCard>
-      <ProjectsCard title="Japanese Society for Pallative Medicine"
-                    link="https://member.jspm.ne.jp/auth/register"
-                    :technologies="['laravel', 'livewire', 'alpinejs']"
+      <ProjectsCard
+        title="Japanese Society for Pallative Medicine"
+        link="https://member.jspm.ne.jp/auth/register"
+        :technologies="['laravel', 'livewire', 'alpinejs']"
       >
-        Lead-Engineer bei der Entwicklung des internen Systems der JSPM. Kundenprojekt, deswegen leider Closed Source.
-        <div class="flex justify-center"><img src="~/assets/portfolio/kanwa.png" alt="Japanese Society for Pallative Medicine"></div>
+        Lead-Engineer bei der Entwicklung des internen Systems der JSPM.
+        Kundenprojekt, deswegen leider Closed Source.
+        <div class="flex justify-center">
+          <img
+            src="~/assets/portfolio/kanwa.png"
+            alt="Japanese Society for Pallative Medicine"
+          />
+        </div>
       </ProjectsCard>
-      <ProjectsCard title="Ekistamp"
-                    github="https://github.com/Danakin/ekistamp_v2"
-                    :current="true"
-                    :technologies="['laravel', 'livewire (admin)', 'vuejs (frontend)', 'flutter (mobile app)']"
+      <ProjectsCard
+        title="Ekistamp"
+        github="https://github.com/Danakin/ekistamp_v2"
+        :current="true"
+        :technologies="[
+          'laravel',
+          'livewire (admin)',
+          'vuejs (frontend)',
+          'flutter (mobile app)',
+        ]"
       >
-        Ein Soziales Netzwerk für Stempel-Sammler in Japan. Fast jeder Bahnhof hat einen eigenen Stempel, bei dieser
-        Anwendung wird man sowohl markieren können, welche Stempel man gesammelt hat, als auch sich mit anderen
-        Stempel-Freunden austauschen. Open Source.
+        Ein Soziales Netzwerk für Stempel-Sammler in Japan. Fast jeder Bahnhof
+        hat einen eigenen Stempel, bei dieser Anwendung wird man sowohl
+        markieren können, welche Stempel man gesammelt hat, als auch sich mit
+        anderen Stempel-Freunden austauschen. Open Source.
       </ProjectsCard>
     </article>
 
-    <a class="rounded absolute bottom-4 right-4 px-8 py-4 bg-slate-50 hover:bg-slate-100 transition-all hover:scale-105 hover:shadow">
+    <a
+      class="absolute bottom-4 right-4 rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+    >
       Mehr →
       <div class="text-xs italic">Coming soon...</div>
     </a>
@@ -49,15 +72,15 @@
 </template>
 
 <script setup>
-import {ref, onMounted} from 'vue';
+import { ref, onMounted } from 'vue';
 
 const projects = ref();
 
 onMounted(() => {
   let options = {
-    root      : null,
+    root: null,
     rootMargin: '0px',
-    threshold : 0.3,
+    threshold: 0.3,
   };
 
   let observer = new IntersectionObserver((entries) => {
