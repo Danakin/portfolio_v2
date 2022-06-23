@@ -1,5 +1,5 @@
 <template>
-    <div class="text-red-500">CONTACT</div>
+    <div class="text-red-500">CONTACT Jap</div>
 </template>
 
 <script setup>

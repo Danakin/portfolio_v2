@@ -1,6 +1,6 @@
 <template>
   <article ref="parentArticle"
-           class="technology-article flex flex-col space-y-4 divide-y divide-gray-200 pt-4">
+           class="technology-article flex flex-col space-y-4 divide-y divide-gray-200 pt-4" header="">
     <section @click="toggle" class="flex justify-between items-center cursor-pointer">
       <h2 class="text-2xl flex-1">{{ props.header }}</h2>
       <div class="h-6 w-6">

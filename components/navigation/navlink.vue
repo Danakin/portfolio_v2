@@ -1,7 +1,7 @@
 <template>
-  <nuxt-link :to="href" :aria-label="label" class="flex min-h-8 p-2 items-center bg-white hover:bg-slate-200">
+  <NuxtLink :to="{ path: href, hash: hash }" :aria-label="label" class="flex min-h-8 p-2 items-center bg-white hover:bg-slate-200">
     <slot />
-  </nuxt-link>
+  </NuxtLink>
 </template>
 
 <script setup>
@@ -9,6 +9,10 @@ defineProps({
   href: {
     type: String,
     required: true,
+  },
+  hash: {
+    type: String,
+    required: false,
   },
   label: {
     type: String,
