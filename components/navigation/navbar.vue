@@ -13,15 +13,15 @@
 </template>
 
 <script setup>
-import { ref, watch } from "vue";
+import { ref, watch } from 'vue';
 
 const open = ref(false);
 
 watch(open, (value) => {
   if (value) {
-    document.body.style.overflowY = "hidden";
+    document.body.style.overflowY = 'hidden';
   } else {
-    document.body.style.overflowY = "auto";
+    document.body.style.overflowY = 'auto';
   }
 });
 </script>

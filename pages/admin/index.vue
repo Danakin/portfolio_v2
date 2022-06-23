@@ -4,7 +4,7 @@
 
 <script setup>
 definePageMeta({
-  title: "Admin Area",
-  layout: "admin",
+  title: 'Admin Area',
+  layout: 'admin',
 });
 </script>

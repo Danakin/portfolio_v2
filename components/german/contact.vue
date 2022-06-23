@@ -56,27 +56,27 @@
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
+import { onMounted, ref } from 'vue';
 
-const name = ref("");
-const email = ref("");
-const message = ref("");
+const name = ref('');
+const email = ref('');
+const message = ref('');
 
 const contact = ref();
 
 onMounted(() => {
-  console.log("ref", contact.value);
+  console.log('ref', contact.value);
 
   let options = {
     root: null,
-    rootMargin: "0px",
+    rootMargin: '0px',
     threshold: 0.3,
   };
 
   let observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.remove("opacity-0", "translate-x-1/2");
+        entry.target.classList.remove('opacity-0', 'translate-x-1/2');
         observer.unobserve(entry.target);
       }
     });
@@ -86,6 +86,6 @@ onMounted(() => {
 });
 
 definePageMeta({
-  layout: "user",
+  layout: 'user',
 });
 </script>

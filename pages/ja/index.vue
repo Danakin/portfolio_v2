@@ -23,11 +23,11 @@
 </template>
 
 <script setup>
-import { onMounted } from "vue";
-import { useRoute, useRouter } from "nuxt/app";
+import { onMounted } from 'vue';
+import { useRoute, useRouter } from 'nuxt/app';
 
 definePageMeta({
-  layout: "user",
-  name: "user_jap",
+  layout: 'user',
+  name: 'user_jap',
 });
 </script>

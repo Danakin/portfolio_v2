@@ -30,5 +30,5 @@ defineProps({
   open: Boolean,
 });
 
-defineEmits(["update:open"]);
+defineEmits(['update:open']);
 </script>

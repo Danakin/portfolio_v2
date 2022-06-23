@@ -70,6 +70,6 @@
 
 <script setup>
 definePageMeta({
-  layout: "user",
+  layout: 'user',
 });
 </script>

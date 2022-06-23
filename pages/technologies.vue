@@ -297,11 +297,11 @@
 </template>
 
 <script setup>
-import TechnologyArticle from "../../old.festor.info/components/technologies/article.vue";
-import TechnologyArticleContent from "../../old.festor.info/components/technologies/article-content.vue";
-import TechnologyArticleSection from "../../old.festor.info/components/technologies/article-section.vue";
+import TechnologyArticle from '../../old.festor.info/components/technologies/article.vue';
+import TechnologyArticleContent from '../../old.festor.info/components/technologies/article-content.vue';
+import TechnologyArticleSection from '../../old.festor.info/components/technologies/article-section.vue';
 
 definePageMeta({
-  layout: "user",
+  layout: 'user',
 });
 </script>

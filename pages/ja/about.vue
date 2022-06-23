@@ -37,12 +37,12 @@
 </template>
 
 <script setup>
-import { onMounted } from "vue";
-import { useRoute } from "nuxt/app";
+import { onMounted } from 'vue';
+import { useRoute } from 'nuxt/app';
 
 definePageMeta({
-  layout: "user",
-  name: "about_jap",
+  layout: 'user',
+  name: 'about_jap',
 });
 
 const route = useRoute();

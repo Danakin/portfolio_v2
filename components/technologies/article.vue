@@ -47,7 +47,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref } from 'vue';
 
 const props = defineProps({
   header: {
@@ -60,13 +60,13 @@ const parentArticle = ref(null);
 const opened = ref(false);
 
 function toggle(event) {
-  const el = parentArticle.value.querySelector("article");
+  const el = parentArticle.value.querySelector('article');
   const current = el.getBoundingClientRect().height;
-  el.style.height = "auto";
+  el.style.height = 'auto';
 
   let full = el.getBoundingClientRect().height;
   requestAnimationFrame(() => {
-    el.style.height = current + "px";
+    el.style.height = current + 'px';
     requestAnimationFrame(() => {
       if (current === full) {
         el.style.height = 0;
@@ -74,7 +74,7 @@ function toggle(event) {
         opened.value = false;
         return;
       }
-      el.style.height = full + "px";
+      el.style.height = full + 'px';
       el.style.opacity = 1;
       opened.value = true;
     });
