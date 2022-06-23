@@ -26,6 +26,22 @@
       <p class="text-center text-xl">
         Webseiten, so individuell wie Ihre Ideen.
       </p>
+
+      <AboutServiceCard class="mt-24">
+        <template #header> Web-Seiten und -Services </template>
+        <div>
+          Mit modernen Technologien entwickle ich sichere Anwendungen, die Ihren
+          Ansprüchen garantiert genügen.
+        </div>
+        <div>Dabei wähle ich die für den Auftrag passendsten Technologien.</div>
+        <div>
+          Im Backend entweder PHP (Laravel), Javascript (Node.js) oder GO.
+        </div>
+        <div>
+          Für Frontend-Anwendungen nutze ich Vue.JS, Svelte oder
+          HTML/Javascript, für mobile Applikationen Dart (Flutter).
+        </div>
+      </AboutServiceCard>
     </article>
 
     <div class="absolute bottom-4 right-4 flex flex-wrap gap-4">
