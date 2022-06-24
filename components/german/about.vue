@@ -7,7 +7,7 @@
     <img
       src="~/assets/danny.jpg"
       alt="This is me"
-      class="absolute top-0 left-0 h-screen opacity-30"
+      class="absolute top-0 left-0 h-screen opacity-30 object-cover"
     />
     <article
       class="relative flex flex-1 flex-col items-center justify-center gap-4 px-8"
