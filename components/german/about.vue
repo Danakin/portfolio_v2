@@ -7,7 +7,7 @@
     <img
       src="~/assets/danny.jpg"
       alt="This is me"
-      class="absolute top-0 left-0 h-screen opacity-30 object-cover"
+      class="absolute top-0 left-0 h-screen object-cover opacity-30"
     />
     <article
       class="relative flex flex-1 flex-col items-center justify-center gap-4 px-8"
@@ -37,8 +37,8 @@
       <AboutServiceCard>
         <template #header> Schnelle Web-Seiten </template>
         <div>
-          Browser müssen nicht langsam sein. Der Einsatz moderne JavaScript-Frameworks
-          garantiert sichere und schnelle Seiten.
+          Browser müssen nicht langsam sein. Der Einsatz moderne
+          JavaScript-Frameworks garantiert sichere und schnelle Seiten.
         </div>
       </AboutServiceCard>
     </article>

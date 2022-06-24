@@ -109,10 +109,9 @@ const submitForm = async () => {
   const response = fetch(endpoint, {
     method: 'POST',
     headers: {
-      credentials: 'include',
       Accept: 'application/json',
-      body: JSON.stringify(data),
     },
+    body: JSON.stringify(data),
   })
     .then((res) => res.json())
     .then((res) => {
