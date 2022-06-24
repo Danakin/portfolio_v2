@@ -3,8 +3,35 @@
     <div>
       <GermanAbout />
     </div>
+    <div class="relative min-h-[100px]">
+      <div class="relative sm:absolute mt-12 sm:mt-0 mx-auto sm:bottom-4 sm:right-4 flex flex-wrap gap-4">
+        <a
+            class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+        >
+          Technologien →
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
+
+        <a
+            class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+        >
+          CV →
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
+      </div>
+    </div>
     <div>
       <GermanProjects />
+    </div>
+    <div class="relative min-h-[100px]">
+      <div class="relative sm:absolute mt-12 sm:mt-0 mx-auto sm:bottom-4 sm:right-4 flex flex-wrap gap-4">
+      <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+      >
+        Mehr →
+        <div class="text-xs italic">Coming soon...</div>
+      </a>
+        </div>
     </div>
     <div>
       <GermanContact />
@@ -19,7 +46,7 @@ definePageMeta({
 </script>
 
 <style>
-main > div:nth-child(even) {
+main > div:nth-child(odd) {
   @apply bg-slate-50;
 }
 

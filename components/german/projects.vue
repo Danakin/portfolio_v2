@@ -61,13 +61,6 @@
         anderen Stempel-Freunden austauschen. Open Source.
       </ProjectsCard>
     </article>
-
-    <a
-      class="absolute bottom-4 right-4 rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
-    >
-      Mehr →
-      <div class="text-xs italic">Coming soon...</div>
-    </a>
   </section>
 </template>
 
@@ -80,7 +73,7 @@ onMounted(() => {
   let options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.3,
+    threshold: 0.2,
   };
 
   let observer = new IntersectionObserver((entries) => {

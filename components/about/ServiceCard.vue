@@ -40,11 +40,11 @@
         </svg>
       </div>
     </div>
-    <div v-if="expanded" class="py-2"></div>
+    <div class="transition-all" :class="expanded ? 'h-4' : 'h-0'"></div>
     <div ref="content" class="about_slot flex flex-col gap-2 px-4 text-justify">
       <slot />
     </div>
-    <div v-if="expanded" class="py-2"></div>
+    <div class="transition-all" :class="expanded ? 'h-4' : 'h-0'"></div>
   </article>
 </template>
 

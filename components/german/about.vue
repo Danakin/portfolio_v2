@@ -7,7 +7,7 @@
     <img
       src="~/assets/danny.jpg"
       alt="This is me"
-      class="absolute top-[50%] left-0 bottom-0 -translate-y-[50%] opacity-30"
+      class="absolute top-0 left-0 h-screen opacity-30"
     />
     <article
       class="relative flex flex-1 flex-col items-center justify-center gap-4 px-8"
@@ -42,21 +42,5 @@
         </div>
       </AboutServiceCard>
     </article>
-
-    <div class="relative sm:absolute mt-4 sm:mt-0 bottom-4 right-4 flex flex-col gap-4">
-      <a
-        class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
-      >
-        Technologien →
-        <div class="text-xs italic">Coming soon...</div>
-      </a>
-
-      <a
-        class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
-      >
-        CV →
-        <div class="text-xs italic">Coming soon...</div>
-      </a>
-    </div>
   </section>
 </template>
