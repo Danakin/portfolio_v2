@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex overflow-x-hidden">
-    <NavigationGermanNavbar></NavigationGermanNavbar>
+    <NavigationJapaneseNavbar />
     <slot />
   </div>
 </template>

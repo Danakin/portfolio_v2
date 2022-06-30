@@ -7,13 +7,14 @@
     @click="open = false"
   >
     <NavigationLogo v-model:open="open" />
-    <NavigationLinks />
+    <NavigationJapaneseLinks />
     <NavigationSociallinks />
   </nav>
 </template>
 
 <script setup>
-import { ref, watch } from 'vue';
+import {onMounted, ref, watch} from 'vue';
+import {useRoute} from 'nuxt/app';
 
 const open = ref(false);
 
@@ -31,6 +32,7 @@ nav a div {
   visibility: hidden;
   transition: opacity 250ms ease-in-out;
   opacity: 0;
+  height: 0;
 }
 
 nav.open a div,
@@ -38,12 +40,7 @@ nav:hover a div {
   visibility: visible;
   margin-left: 1rem;
   opacity: 1;
-}
-
-nav.open a div,
-nav:hover a div {
-  visibility: visible;
-  margin-left: 1rem;
-  opacity: 1;
+  height: 24px;
+  overflow: hidden;
 }
 </style>

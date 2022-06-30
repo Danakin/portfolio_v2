@@ -1,33 +1,60 @@
 <template>
-  <section class="relative flex h-full w-full flex-col lg:flex-row">
-    <img
-      src="~/assets/danny.jpg"
-      alt="This is me"
-      class="absolute top-[50%] left-0 bottom-0 -translate-y-[50%] opacity-30"
-    />
-    <article
-      class="relative flex flex-1 flex-col items-center justify-center gap-8 px-8"
-    >
-      <h2 class="text-center text-2xl uppercase">Hi, ich bin Danny!</h2>
-      <h1 class="text-center text-4xl font-bold">
-        Ich bin ein <strong>Freelancer</strong>
-      </h1>
-      <p class="text-center text-xl">
-        Ich erstelle<br /><strong>moderne Webseiten</strong
-        ><br />und<br /><strong>Web Services</strong><br />
-        mittels
-        <em class="not-italic">neuester Technologien und Methodologien</em>
-      </p>
-    </article>
-  </section>
+  <main class="relative flex w-full flex-col">
+    <div>
+      <GermanAbout />
+    </div>
+    <div class="relative min-h-[100px]">
+      <div
+        class="relative mx-auto mt-12 flex flex-wrap gap-4 sm:absolute sm:bottom-4 sm:right-4 sm:mt-0"
+      >
+        <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+        >
+          Technologien →
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
+
+        <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+        >
+          CV →
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
+      </div>
+    </div>
+    <div>
+      <GermanProjects />
+    </div>
+    <div class="relative min-h-[100px]">
+      <div
+        class="relative mx-auto mt-12 flex flex-wrap gap-4 sm:absolute sm:bottom-4 sm:right-4 sm:mt-0"
+      >
+        <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+        >
+          Mehr →
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
+      </div>
+    </div>
+    <div>
+      <GermanContact />
+    </div>
+  </main>
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
-import { useRoute, useRouter } from 'nuxt/app';
-
 definePageMeta({
-  layout: 'user',
-  name: 'user_jap',
+  layout: 'jap',
 });
 </script>
+
+<style>
+main > div:nth-child(odd) {
+  @apply bg-slate-50;
+}
+
+main > div > section {
+  @apply py-4 pl-14 pr-2 sm:pr-4 md:pl-52 lg:pr-8;
+}
+</style>

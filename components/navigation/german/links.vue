@@ -90,6 +90,18 @@
       </svg>
       <div>Contact</div>
     </NavigationNavlink>
+    <NavigationNavlink
+      href="/ja"
+      hash="#about"
+      label="日本語版に変更"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 flex-shrink-0" viewBox="0 0 900 600">
+        <rect fill="#fff" height="600" width="900"/>
+        <circle fill="#bc002d" cx="450" cy="300" r="180"/>
+      </svg>
+
+      <div>日本語</div>
+    </NavigationNavlink>
   </section>
 </template>
 
