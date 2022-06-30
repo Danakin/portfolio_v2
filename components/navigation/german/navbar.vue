@@ -13,8 +13,8 @@
 </template>
 
 <script setup>
-import {onMounted, ref, watch} from 'vue';
-import {useRoute} from 'nuxt/app';
+import { onMounted, ref, watch } from 'vue';
+import { useRoute } from 'nuxt/app';
 
 const open = ref(false);
 
@@ -25,14 +25,6 @@ watch(open, (value) => {
     document.body.style.overflowY = 'auto';
   }
 });
-
-const route = useRoute()
-
-onMounted(() => {
-  console.log('route', route);
-  console.log('fullpath', route.fullPath);
-  console.log('name', route.name);
-})
 </script>
 
 <style>

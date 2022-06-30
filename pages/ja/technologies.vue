@@ -3,8 +3,8 @@
     id="technologies"
     class="mx-auto flex max-w-2xl flex-col space-y-8 divide-y divide-gray-400 p-4"
   >
-    <h1 class="text-3xl">Meine Technologien</h1>
-    <TechnologiesArticle header="Backend">
+    <h1 class="text-3xl">使用テクノローの詳細</h1>
+    <TechnologiesArticle header="サーバー側・バックエンド">
       <TechnologiesArticleContent>
         <TechnologiesArticleSection>
           <h3>
@@ -29,12 +29,10 @@
             </a>
           </h3>
           <p>
-            Hauptsächlich arbeite ich mit Laravel (PHP). Laravel ist sicher, und
-            sorgt für sauberen und leicht wartbaren Quelltext.
+            主にLaravel(PHP)を使って仕事をしています。Laravelは安全で、クリーンで保守しやすいソースコードのためです。
           </p>
           <p>
-            Es ist aufgebaut auf modernem PHP. PHP ist schnell, sicher und gut
-            getestet.
+            最新のPHPで構築されています。PHPは高速で、安全で、よくテストされています。
           </p>
           <ul class="space-y-4">
             <li>
@@ -55,8 +53,7 @@
                     d="M12.001 0C6.1735 0 1.4482 4.9569 1.4482 11.0723c0 2.0888.5518 4.0417 1.5098 5.709.2492.2796.544.4843.9649.4843 1.3388 0 1.2678-2.0644 2.6074-2.0644 1.3395 0 1.4111 2.0644 2.75 2.0644 1.3388 0 1.2659-2.0644 2.6054-2.0644.5845 0 .9278.3967 1.2403.8398-.2213-.2055-.4794-.3476-.8203-.3476-1.1956 0-1.3063 1.6771-2.2012 2.1406v4.5097c0 .9145.7418 1.6563 1.6562 1.6563.9145 0 1.6563-.7418 1.6563-1.6563v-5.8925c.308.4332.647.8144 1.2207.8144 1.3388 0 1.266-2.0644 2.6055-2.0644.465 0 .7734.2552 1.039.58-.1294-.0533-.2695-.0878-.4297-.0878-1.1582 0-1.296 1.574-2.1171 2.0937v2.4356c0 .823.6672 1.4902 1.4902 1.4902s1.4902-.6672 1.4902-1.4902V16.371c.3234.4657.6684.8945 1.2774.8945.7955 0 1.093-.7287 1.4843-1.3203.6878-1.4704 1.0743-3.1245 1.0743-4.873C22.5518 4.9569 17.8284 0 12.001 0zm-.5664 2.877c2.8797 0 5.2148 2.7836 5.2148 5.8066 0 3.023-1.5455 5.1504-5.2148 5.1504-3.6693 0-5.2149-2.1274-5.2149-5.1504S8.5548 2.877 11.4346 2.877zM10.0322 4.537a1.9554 2.1583 0 00-1.955 2.1582 1.9554 2.1583 0 001.955 2.1582 1.9554 2.1583 0 001.9551-2.1582 1.9554 2.1583 0 00-1.955-2.1582zm-.3261.664a.9777.9961 0 01.9785.9962.9777.9961 0 01-.9785.996.9777.9961 0 01-.9766-.996.9777.9961 0 01.9766-.9961zM6.7568 15.6935c-1.0746 0-1.2724 1.3542-1.9511 1.9648v1.7813c0 .823.6672 1.4902 1.4902 1.4902s1.4902-.6672 1.4902-1.4902v-3.1817c-.2643-.3237-.5767-.5644-1.0293-.5644Z"
                   />
                 </svg>
-                Livewire sorgt dabei für Interaktivität auf Ihren Homepages, und
-                gewährt trotzdem SEO.
+                Livewireは、ホームページのインタラクティブ性を確保し、なおかつSEOも付与しています。
               </a>
             </li>
             <li>
@@ -80,13 +77,9 @@
                   />
                 </svg>
                 <p>
-                  Inertia.js hilft moderne und schnelle
-                  <em>Single-Page Applikationen (SPA)</em> mit Vue.js zu
-                  erstellen, ohne den umständlichen Umweg über eine API zu
-                  gehen. Serverseitige Logik wie Anmelde-Logik oder
-                  Eingaben-Überprüfung übernimmt dabei ausschließlich das
-                  Laravel-Backend, was Fehlerquellen und unnötige Rendundanz
-                  reduziert.
+                  Inertia.jsでは、Vue.jsでモダンで高速なシングルページアプリケーション（SPA）をAPI経由の面倒な流用なしに作成することができます。
+                  ログインロジックや入力検証などのサーバーサイドのロジックは、
+                  Laravelのバックエンドが独占的に処理するため、エラーの原因や不必要な冗長性を減らすことができます。
                 </p>
               </a>
             </li>
@@ -115,18 +108,14 @@
             </a>
           </h3>
           <p>
-            Rasend-schnelle APIs und Microservices, mit Multithreading. Das
-            ideale Backend für Ihre <em>Single-Page Application</em> oder
-            <em>Smartphone App.</em>
+            マルチスレッドによる高速なAPIとマイクロサービス。
+            シングルページアプリケーションやスマートフォンアプリに最適なバックエンドです。
           </p>
           <p>
-            Das Blog von
-            <em
-              ><a class="hover:underline" href="https://www.festor.info/blog"
-                >festor.info</a
-              ></em
-            >
-            wird von einer in Go geschriebenen API befeuert.
+            <a class="hover:underline" href="https://www.festor.info/blog">
+              festor.info
+            </a>
+            のブログのバックエンドはGOで実装されています。
           </p>
         </TechnologiesArticleSection>
         <TechnologiesArticleSection>
@@ -152,10 +141,9 @@
             </a>
           </h3>
           <p>
-            Node befeuert ebenso wie Go APIs und Microservices weltweit. Es ist
-            schnell und sicher. Der Einsatz von JavaScript im Backend
-            garantiert, dass auch auf das Frontend fokussierte Entwickler Ihren
-            Code warten können.
+            Nodeは、Goと同様に、世界中のAPIやマイクロサービスを動かしています。高速で安全です。
+            バックエンドにJavaScriptを使用することで、
+            フロントエンドに特化した開発者でもコードのメンテナンスができます。
           </p>
           <ul>
             <li>
@@ -177,12 +165,12 @@
                   />
                 </svg>
                 <p>
-                  Electron.js - Mit Electron können ganz leicht und schnell
-                  Desktop-Anwendungen erstellt werden. Das Aussehen der App wird
-                  dabei wie eine Webseite gestaltet - es ist nur ein
-                  verkleideter Browser, allerdings hat die Applikation im
-                  Unterschied zu einem richtigen Browser dabei auch Zugriff auf
-                  das Datei-System.
+                  Electron.js -
+                  Electronを使えば、デスクトップアプリケーションを非常に簡単かつ迅速に作成することができます。
+                  アプリの外観はウェブサイトのようにデザインされており、
+                  まさにブラウザを装っているのですが、
+                  本物のブラウザとは異なり、
+                  アプリケーションはファイルシステムにもアクセスすることができるのです。
                 </p>
               </a>
             </li>
@@ -190,7 +178,7 @@
         </TechnologiesArticleSection>
       </TechnologiesArticleContent>
     </TechnologiesArticle>
-    <TechnologiesArticle header="Frontend">
+    <TechnologiesArticle header="ユーザ側・フロントエンド">
       <TechnologiesArticleContent>
         <TechnologiesArticleSection class="flex flex-col space-y-2 pt-4">
           <h3>
@@ -215,16 +203,14 @@
             </a>
           </h3>
           <p>
-            Vue sorgt für dynamische und schnelle Seiten. Interaktivität, und
-            schicke Animationen stehen genau so im Vordergrund wir der schnelle
-            Aufbau Ihrer Seite.
+            Vueは、ダイナミックで高速なページを実現します。
+            インタラクティビティと アニメーションが前面に出てくるのは、
+            急速な進化を遂げたの構造について説明します。
           </p>
           <p>
-            Hauptsächlich werden in Vue.js sogenannte
-            <em>Single-Page Applications (SPA)</em> verwirklicht, bei denen
-            ausschließlich der Inhalt, und nicht die komplette Seite beim
-            Navigieren geladen werden. Dadurch fühlen sich Homepages einfach
-            schnell an.
+            Vue.jsは主に、ナビゲーション時にページ全体ではなくコンテンツのみを読み込む、
+            いわゆるシングルページアプリケーション（SPA）を実現するために使用されています。
+            そのため、ホームページが速く感じられます。
           </p>
           <ul>
             <li>
@@ -246,18 +232,15 @@
                   />
                 </svg>
                 <p>
-                  Nuxt.js - Der Nachteil einer SPA ist, dass die
-                  Webseiten-Crawler wie der Index-Bot von Google diese teilweise
-                  nicht navigieren können, was in einem schlechteren Ranking
-                  beim Suchen resultiert. Nuxt hilft durch Generieren von
-                  statischen Seiten oder Serverseitigem Rendern den Bots, doch
-                  die Seite richtig zu indizieren.
-                  <em><a href="https://festor.info">festor.info</a></em> ist in
-                  Nuxt.js geschrieben.
+                  Nuxt.js - SPAのデメリットは、
+                  GoogleのインデックスボットなどのWebサイトのクローラーが場合によっては巡回できないため、
+                  検索時に順位が下がってしまうことです。
+                  Nuxtは、静的ページやサーバーサイドレンダリングを生成することで、
+                  ボットがページを正しくインデックスすることができます。<br />
+                  本ページはNuxtで実装されています。
                 </p>
               </a>
             </li>
-            <li><a href=""></a></li>
           </ul>
         </TechnologiesArticleSection>
         <TechnologiesArticleSection class="flex flex-col space-y-2 pt-4">
@@ -283,12 +266,10 @@
             </a>
           </h3>
           <p>
-            Wenn es nicht gleich eine SPA sein muss, kann Alpine.js kleinere
-            Abschnitte Ihrer Seite dynamisch gestalten. Alpine.js ist robust und
-            einfach zu lernen, aber trotzdem sehr mächtig. Alpine.js entwickelt
-            seine volle Stärke in einer mit Laravel und Livewire befeuerten
-            Applikation. Professionell sind die meisten meiner Homepages in
-            Laravel, Livewire und Alpine.js gestaltet.
+            SPAでなくても、Alpine.jsを使えば、ページの小さなセクションをダイナミックに動かすことができます。
+            Alpine.jsは勉強しやすく、それでいて非常にパワフルです。
+            Alpine.jsは、LaravelとLivewireを使用したアプリケーションでその力を発揮します。
+            プロとして、私のホームページのほとんどは、Laravel、Livewire、Alpine.jsで実装されています。
           </p>
         </TechnologiesArticleSection>
       </TechnologiesArticleContent>
@@ -298,6 +279,7 @@
 
 <script setup>
 definePageMeta({
+  name: 'ja-technologies',
   layout: 'user',
   pageTransition: {
     name: 'fade',

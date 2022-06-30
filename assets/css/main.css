@@ -1,0 +1,19 @@
+body {
+    --duration: 0.25s;
+}
+
+.fade-leave-active
+{
+    transition: opacity var(--duration) ease-in-out, transform var(--duration) ease-in-out;
+}
+
+.fade-enter-active
+{
+    transition: opacity var(--duration) ease-in-out var(--duration), transform var(--duration) ease-in-out var(--duration);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+    transform: translateX(20%);
+}

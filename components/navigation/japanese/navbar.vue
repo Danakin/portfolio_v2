@@ -13,8 +13,8 @@
 </template>
 
 <script setup>
-import {onMounted, ref, watch} from 'vue';
-import {useRoute} from 'nuxt/app';
+import { onMounted, ref, watch } from 'vue';
+import { useRoute } from 'nuxt/app';
 
 const open = ref(false);
 

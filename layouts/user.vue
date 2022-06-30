@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen flex overflow-x-hidden">
-    <NavigationGermanNavbar></NavigationGermanNavbar>
-    <slot />
+  <div class="flex min-h-screen overflow-x-hidden">
+    <NavigationGermanNavbar />
+    <NuxtPage />
   </div>
 </template>
 

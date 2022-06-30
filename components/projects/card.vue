@@ -24,8 +24,17 @@
     <div v-else class="font-bold">
       {{ props.title }}
     </div>
-    <div v-if="current" class="text-right text-sm italic text-red-600">
+    <div
+      v-if="current && !japanese"
+      class="text-right text-sm italic text-red-600"
+    >
       In Entwicklung
+    </div>
+    <div
+      v-else-if="current && japanese"
+      class="text-right text-sm italic text-red-600"
+    >
+      開発中
     </div>
     <div class="flex-1">
       <slot />
@@ -129,6 +138,11 @@ const props = defineProps({
     required: false,
   },
   current: {
+    type: Boolean,
+    required: false,
+    default: false,
+  },
+  japanese: {
     type: Boolean,
     required: false,
     default: false,
