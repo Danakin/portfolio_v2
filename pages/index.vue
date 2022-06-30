@@ -1,42 +1,54 @@
 <template>
   <main class="relative flex w-full flex-col">
-      <div>
-        <GermanAbout />
-      </div>
-      <div class="relative min-h-[100px]">
-        <div
-          class="relative mx-auto mt-12 flex flex-wrap gap-4 sm:absolute sm:bottom-4 sm:right-4 sm:mt-0"
+    <div>
+      <GermanAbout />
+    </div>
+    <div class="relative min-h-[100px]">
+      <div
+        class="absolute bottom-4 right-4 mx-auto mt-12 flex flex-wrap gap-4 sm:mt-0"
+      >
+        <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
         >
-          <a
-            class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
-          >
-            CV →
-            <div class="text-xs italic">Coming soon...</div>
-          </a>
-        </div>
+          CV →
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
       </div>
-      <div>
-        <GermanTechnologies />
-      </div>
-      <div>
-        <GermanProjects />
-      </div>
-      <div class="relative min-h-[100px]">
-        <div
-          class="relative mx-auto mt-12 flex flex-wrap gap-4 sm:absolute sm:bottom-4 sm:right-4 sm:mt-0"
+    </div>
+    <div>
+      <GermanTechnologies />
+    </div>
+    <div>
+      <GermanProjects />
+    </div>
+    <div class="relative min-h-[100px]">
+      <div
+        class="absolute bottom-4 right-4 mx-auto mt-12 flex flex-wrap gap-4 sm:mt-0"
+      >
+        <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
         >
-          <a
-            class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
-          >
-            Mehr →
-            <div class="text-xs italic">Coming soon...</div>
-          </a>
-        </div>
+          Blog
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
       </div>
-      <div>
-        <GermanContact />
+    </div>
+    <div class="relative min-h-[100px]">
+      <div
+        class="absolute bottom-4 right-4 mx-auto mt-12 flex flex-wrap gap-4 sm:mt-0"
+      >
+        <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+        >
+          Mehr →
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
       </div>
-    </main>
+    </div>
+    <div>
+      <GermanContact />
+    </div>
+  </main>
 </template>
 
 <script setup>

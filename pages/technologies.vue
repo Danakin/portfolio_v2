@@ -1,5 +1,5 @@
 <template>
-  <main class="relative flex w-full flex-col">
+  <main class="relative flex w-full flex-1 flex-col">
     <h1 class="text-3xl">Meine Technologien</h1>
     <TechnologiesArticle header="Backend">
       <TechnologiesArticleContent>

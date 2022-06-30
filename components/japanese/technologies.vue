@@ -2,12 +2,10 @@
   <section
     id="technologies"
     ref="technologies"
-    class="relative mx-auto flex min-h-[50vh] w-full max-w-4xl -translate-x-1/2 flex-col items-center justify-center gap-4 opacity-0 transition-all duration-500 pb-16"
+    class="relative mx-auto flex min-h-[50vh] w-full max-w-4xl -translate-x-1/2 flex-col items-center justify-center gap-4 pb-16 opacity-0 transition-all duration-500"
   >
     <h2 class="text-center text-2xl font-bold">使用テクノロジー</h2>
-    <article
-      class="grid w-full gap-4 grid-cols-2 md:grid-cols-4"
-    >
+    <article class="grid w-full grid-cols-2 gap-4 md:grid-cols-4">
       <TechnologiesCard>
         <template v-slot:logo>
           <svg

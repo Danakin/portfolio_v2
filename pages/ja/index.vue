@@ -5,7 +5,7 @@
     </div>
     <div class="relative min-h-[100px]">
       <div
-        class="relative mx-auto mt-12 flex flex-wrap gap-4 sm:absolute sm:bottom-4 sm:right-4 sm:mt-0"
+        class="absolute bottom-4 right-4 mx-auto mt-12 flex flex-wrap gap-4 sm:mt-0"
       >
         <a
           class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
@@ -23,12 +23,24 @@
     </div>
     <div class="relative min-h-[100px]">
       <div
-        class="relative mx-auto mt-12 flex flex-wrap gap-4 sm:absolute sm:bottom-4 sm:right-4 sm:mt-0"
+        class="absolute bottom-4 right-4 mx-auto mt-12 flex flex-wrap gap-4 sm:mt-0"
       >
         <a
           class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
         >
-          Mehr →
+          ブログ
+          <div class="text-xs italic">Coming soon...</div>
+        </a>
+      </div>
+    </div>
+    <div class="relative min-h-[100px]">
+      <div
+        class="absolute bottom-4 right-4 mx-auto mt-12 flex flex-wrap gap-4 sm:mt-0"
+      >
+        <a
+          class="rounded bg-slate-50 px-8 py-4 transition-all hover:scale-105 hover:bg-slate-100 hover:shadow"
+        >
+          もっとみる →
           <div class="text-xs italic">Coming soon...</div>
         </a>
       </div>
