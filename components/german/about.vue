@@ -2,7 +2,7 @@
   <section
     id="about"
     ref="about"
-    class="relative relative flex min-h-screen w-full flex-col lg:flex-row"
+    class="relative flex min-h-screen w-full flex-col lg:flex-row"
   >
     <img
       src="~/assets/danny.jpg"

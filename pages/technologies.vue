@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="technologies"
-    class="mx-auto flex max-w-2xl flex-col space-y-8 divide-y divide-gray-400 p-4"
-  >
+  <main class="relative flex w-full flex-col">
     <h1 class="text-3xl">Meine Technologien</h1>
     <TechnologiesArticle header="Backend">
       <TechnologiesArticleContent>
@@ -293,7 +290,7 @@
         </TechnologiesArticleSection>
       </TechnologiesArticleContent>
     </TechnologiesArticle>
-  </section>
+  </main>
 </template>
 
 <script setup>

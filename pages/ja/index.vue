@@ -50,13 +50,3 @@ definePageMeta({
   },
 });
 </script>
-
-<style>
-main > div:nth-child(odd) {
-  @apply bg-slate-50;
-}
-
-main > div > section {
-  @apply py-4 pl-14 pr-2 sm:pr-4 md:pl-52 lg:pr-8;
-}
-</style>
