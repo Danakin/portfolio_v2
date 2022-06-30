@@ -280,7 +280,7 @@
 <script setup>
 definePageMeta({
   name: 'ja-technologies',
-  layout: 'user',
+  layout: 'jap',
   pageTransition: {
     name: 'fade',
   },

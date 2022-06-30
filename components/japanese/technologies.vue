@@ -90,7 +90,7 @@
       </TechnologiesCard>
     </article>
 
-    <article class="absolute bottom-8 right-4">
+    <article class="absolute bottom-8 right-4 transition-all hover:scale-105">
       <nuxt-link :to="{ name: 'ja-technologies' }" class="px-8 py-4 shadow"
         >詳しくはこちら...</nuxt-link
       >
